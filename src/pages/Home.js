@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "center",
     textAlign: "center",
-    marginTop: "5em",
+    marginTop: "6em",
     [theme.breakpoints.up("md")]: {
       flexDirection: "row",
       justifyContent: "space-between",
@@ -52,7 +52,7 @@ const Home = () => {
             >
               Skill up Internship Programmer
             </Typography>
-            <Typography><span>Skill up Internship</span> seeks to support individuals interested in building a career in Tech by providing a robust industry-standard experience characterised by measurable hands-on training crafted to help you succeed.</Typography>
+            <Typography color="grey"><span>Skill up Internship</span> seeks to support individuals interested in building a career in Tech by providing a robust industry-standard experience characterised by measurable hands-on training crafted to help you succeed.</Typography>
             <Btn title="Get Started" />
             <CountDown />
           </Box>

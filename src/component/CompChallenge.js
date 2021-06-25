@@ -5,13 +5,21 @@ import DispImg from '../utils/DispImg';
 
 const useStyles = makeStyles((theme) => ({
   compWrap: {
+    marginTop: "5em",
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
     [theme.breakpoints.up("md")]: {
-      display: "flex",
+      flexDirection: "row",
       justifyContent: "space-between",
-      alignItems: "flex-start",
+      textAlign: "left",
     }
   },
   imgWrap: {
+    marginTop: "2em",
     [theme.breakpoints.up("md")]: {
       width: "50%",
       marginLeft: "50px",
@@ -19,32 +27,32 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   contentWrap: {
+    maxWidth: "500px",
     [theme.breakpoints.up("md")]: {
       width: "50%",
       alignSelf: "center"
     }
   },
 
+
 }))
 const CompChallenge = () => {
   const classes = useStyles();
   return (
     <>
-      <Box className="container">
-        <Box className={classes.compWrap}>
-          <Box className={classes.contentWrap}>
-            <Typography 
-            variant="h3" 
-            color="primary"
-            gutterBottom
-            >
-              Complete Challenges
-            </Typography>
-            <Typography>Fusce egestas elit eget lorem. Praesent ac sem eget est egestas volutpat. Fusce a quam. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</Typography>
-          </Box>
-          <Box className={classes.imgWrap}>
-            <DispImg src={section8Img} alt="rocking lady"/>
-          </Box>
+      <Box className={classes.compWrap}>
+        <Box className={classes.contentWrap}>
+          <Typography 
+          variant="h3" 
+          color="primary"
+          gutterBottom
+          >
+            Complete Challenges
+          </Typography>
+          <Typography>Fusce egestas elit eget lorem. Praesent ac sem eget est egestas volutpat. Fusce a quam. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</Typography>
+        </Box>
+        <Box className={classes.imgWrap}>
+          <DispImg src={section8Img} alt="rocking lady"/>
         </Box>
       </Box>
     </>
