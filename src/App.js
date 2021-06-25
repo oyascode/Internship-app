@@ -9,6 +9,7 @@ import Faq from "./pages/Faq";
 import Apply from "./pages/Apply";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 import Footer from "./component/Footer";
+import { grey } from "@material-ui/core/colors";
 
 const theme = createMuiTheme({
   palette: {
@@ -22,7 +23,7 @@ const theme = createMuiTheme({
       main: "#1F28CF",
     },
     grey: {
-      main: "#4B4F51",
+      main: grey[500],
     }
   },
   typography: {
@@ -31,11 +32,11 @@ const theme = createMuiTheme({
       fontWeight: "700",
     },
     h2: {
-      fontSize: "1.5rem",
+      fontSize: "1.7rem",
       fontWeight: "700",
     },
     h3: {
-      fontSize: "1.35rem",
+      fontSize: "1.5rem",
       fontWeight: "500",
     },
     h4: {

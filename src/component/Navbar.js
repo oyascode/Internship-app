@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     position: "fixed",
     top: "0",
     left: "0",
-    zIndex: "3"
+    zIndex: "3",
   },
   navWrap: {
     width: "85%",
@@ -35,8 +35,9 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   appBar: {
-    // position: "relative",
-    backgroundColor: "#fff"
+    backgroundColor: "#fff",
+    paddingTop: "1em",
+    paddingBottom: "1em",
   },
   mobileMenu: {
     position: "relative",
