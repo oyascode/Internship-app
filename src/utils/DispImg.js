@@ -5,12 +5,12 @@ import { Box, makeStyles } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
   displayImg: {
     display: "block",
-    width: "360px",
+    width: "400px",
     maxWidth: "100%",
     marginRight: "auto",
     marginLeft: "auto",
     [theme.breakpoints.up("md")]: {
-      width: "800px",
+      width: "850px",
     }
   }
 }))
