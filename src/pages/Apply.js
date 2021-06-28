@@ -5,7 +5,9 @@ import Btn from '../utils/Btn';
 
 
 const useStyles = makeStyles((theme) => ({
-
+  contentWrap: {
+    marginTop: "8em",
+  },
   header: {
     textAlign: "center",
     marginBottom: "3em",
@@ -37,18 +39,19 @@ const Apply = () => {
   return (
       <Box className="contianer">
         <Box className={classes.contentWrap}>
-        <Box className={classes.header}>
-        <Typography variant="h6">
-        Fill the form below
-        </Typography>
-        <Typography 
-        className={classes.subtitle} 
-        variant="h2" 
-        gutterBottom
-        >
-          Register
-        </Typography>
-      </Box>
+          <Box className={classes.header}>
+          <Typography variant="h6" style={{color: "#1F28CF", fontWeight: "700"}}>
+          Fill the form below
+          </Typography>
+          <Typography 
+          className={classes.subtitle} 
+          variant="h2"
+          color="primary" 
+          gutterBottom
+          >
+            Register
+          </Typography>
+          </Box>
           <Box className={classes.flexWrap}>
             <Box className={classes.formLogin}>
               <form className={classes.form} noValidate autoComplete="off">

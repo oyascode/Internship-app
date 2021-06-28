@@ -10,10 +10,13 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "auto",
     marginLeft: "auto",
     [theme.breakpoints.up("md")]: {
-      width: "600px",
+      width: "100%",
+      maxWidth: "600px",
+      marginRight: "0",
+      marginLeft: "0",
     },
     [theme.breakpoints.up("lg")]: {
-      width: "700px",
+      width: "600px",
     }
   }
 }))

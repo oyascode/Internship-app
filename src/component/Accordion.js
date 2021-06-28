@@ -8,14 +8,19 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
     justifyContent: "space-between",
     cursor: "pointer",
-    backgroundColor: "#efefef",
+    borderBottom: "1px solid #ddd",
+    color: "#222",
     padding: theme.spacing(1),
+    fontWeight: "500",
     "&:hover": {
       backgroundColor: "#dddddd40",
     }
   },
   accordionContent: {
     padding: theme.spacing(2),
+    color: "#222",
+    fontSize: "0.9rem",
+    lineHeight: "1.4",
   }
 }))
 

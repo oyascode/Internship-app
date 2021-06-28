@@ -22,8 +22,8 @@ const theme = createMuiTheme({
     info: {
       main: "#1F28CF",
     },
-    grey: {
-      main: grey[500],
+    disabled: {
+      main: "#4B4F51",
     }
   },
   typography: {
