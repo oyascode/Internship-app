@@ -8,10 +8,11 @@ const useStyles = makeStyles({
     maxWidth: "600px",
     marginRight: "auto",
     marginLeft: "auto",
+    marginTop: "3em",
   },
   header: {
     textAlign: "center",
-    marginBottom: "2em"
+    marginTop: "7em"
   }
 })
 
@@ -20,12 +21,13 @@ const Faq = () => {
   return (
     <Box className="container">
       <Box className={classes.header}>
-        <Typography variant="h6">
+        <Typography variant="h6" style={{color: "#1F28CF", fontWeight: "700"}}>
         Questions and answers
         </Typography>
         <Typography 
         className={classes.subtitle} 
         variant="h2" 
+        color="primary"
         gutterBottom
         >
           Frequently Asked Questions

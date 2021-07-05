@@ -52,7 +52,7 @@ const Home = () => {
             >
               Skill up Internship Programmer
             </Typography>
-            <Typography color="grey"><span>Skill up Internship</span> seeks to support individuals interested in building a career in Tech by providing a robust industry-standard experience characterised by measurable hands-on training crafted to help you succeed.</Typography>
+            <Typography color="disabled"><span>Skill up Internship</span> seeks to support individuals interested in building a career in Tech by providing a robust industry-standard experience characterised by measurable hands-on training crafted to help you succeed.</Typography>
             <Btn title="Get Started" />
             <CountDown />
           </Box>

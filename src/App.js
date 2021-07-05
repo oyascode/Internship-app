@@ -9,7 +9,7 @@ import Faq from "./pages/Faq";
 import Apply from "./pages/Apply";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 import Footer from "./component/Footer";
-import { grey } from "@material-ui/core/colors";
+
 
 const theme = createMuiTheme({
   palette: {
@@ -22,9 +22,6 @@ const theme = createMuiTheme({
     info: {
       main: "#1F28CF",
     },
-    grey: {
-      main: grey[500],
-    }
   },
   typography: {
     h1: {
