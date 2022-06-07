@@ -48,7 +48,7 @@ const CountDown = () => {
   let interval = useRef();
 
   const getTimer = () => {
-    const countDownDate = new Date("October 31, 2021 00:00:00").getTime();
+    const countDownDate = new Date("October 31, 2022 00:00:00").getTime();
 
     interval = setInterval(() => {
       const currentTime = new Date().getTime();
